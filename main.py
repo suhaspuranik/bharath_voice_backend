@@ -37,3 +37,8 @@ app.include_router(caption_router)
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+# Alias for Render default health check path
+@app.get("/healthz")
+def healthz():
+    return {"status": "ok"}

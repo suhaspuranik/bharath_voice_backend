@@ -17,8 +17,7 @@ def create_google_credentials():
         "auth_uri": os.getenv("GOOGLE_CLOUD_AUTH_URI"),
         "token_uri": os.getenv("GOOGLE_CLOUD_TOKEN_URI"),
         "auth_provider_x509_cert_url": os.getenv("GOOGLE_CLOUD_AUTH_PROVIDER_X509_CERT_URL"),
-        "client_x509_cert_url": os.getenv("GOOGLE_CLOUD_CLIENT_X509_CERT_URL"),
-        "universe_domain": os.getenv("GOOGLE_CLOUD_UNIVERSE_DOMAIN")
+        "client_x509_cert_url": os.getenv("GOOGLE_CLOUD_CLIENT_X509_CERT_URL")
     }
     
     # Create credentials directory if it doesn't exist

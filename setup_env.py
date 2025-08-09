@@ -43,12 +43,8 @@ GOOGLE_CLOUD_CLIENT_EMAIL={credentials.get('client_email', '')}
 GOOGLE_CLOUD_CLIENT_ID={credentials.get('client_id', '')}
 GOOGLE_CLOUD_AUTH_URI={credentials.get('auth_uri', '')}
 GOOGLE_CLOUD_TOKEN_URI={credentials.get('token_uri', '')}
-GOOGLE_CLOUD_AUTH_PROVIDER_X509_CERT_URL={credentials.get('auth_provider_x509_cert_url', '')}
-GOOGLE_CLOUD_CLIENT_X509_CERT_URL={credentials.get('client_x509_cert_url', '')}
-GOOGLE_CLOUD_UNIVERSE_DOMAIN={credentials.get('universe_domain', '')}
-
-# Optional: Set custom paths
-GOOGLE_APPLICATION_CREDENTIALS=./credentials/google_credentials.json
+        GOOGLE_CLOUD_AUTH_PROVIDER_X509_CERT_URL={credentials.get('auth_provider_x509_cert_url', '')}
+        GOOGLE_CLOUD_CLIENT_X509_CERT_URL={credentials.get('client_x509_cert_url', '')}
 """
         
         # Write .env file
