@@ -64,6 +64,16 @@ credentials/
 config/language.json
 google_credentials.json
 
+# Uploaded files and static content
+static/uploads/
+uploads/
+temp_*
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.mp4
+
 # FastAPI auto-generated docs cache (optional)
 *.sqlite3
 
