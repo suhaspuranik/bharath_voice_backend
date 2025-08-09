@@ -32,3 +32,4 @@ fastapi-cors
 
 # Additional Utilities
 typing-extensions
+python-3.9.18
