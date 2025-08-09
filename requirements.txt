@@ -1,0 +1,34 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+
+# Data Validation
+pydantic
+
+# Environment Variables
+python-dotenv
+
+# Audio Processing
+pydub
+librosa
+numpy
+
+# Machine Learning
+torch
+openai-whisper
+
+# Google Cloud Services
+google-cloud-speech
+google-cloud-storage
+
+# Translation
+googletrans==4.0.0rc1
+
+# File Processing
+python-multipart
+
+# CORS Support
+fastapi-cors
+
+# Additional Utilities
+typing-extensions
